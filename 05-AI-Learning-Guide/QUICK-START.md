@@ -8,7 +8,7 @@
 
 Или используйте короткий промпт:
 ```
-"Прочитай файл AI-MENTOR-INSTRUCTION.md из папки 05-AI-Learning-Guide.
+"Прочитай файл AI-MENTOR-INSTRUCTION.md из папки AI-MENTOR-INSTRUCTION-V2.
 
 Ты будешь моим ментором по Unity + C# + Architecture.
 
