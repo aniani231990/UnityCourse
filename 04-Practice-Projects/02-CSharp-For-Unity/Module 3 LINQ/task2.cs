@@ -37,4 +37,26 @@ public class GameManager
 {
     List<Player> players = new List<Player>();
     Vector3 enemyPosition; // позиция врага
+
+    public Player GetNearestPlayer()
+    {
+        return players.MinBy(player => Vector3.SqrMagnitude(enemyPosition - player.Position));
+    }
+
+    public Player GetPlayerMinHP()
+    {
+        return players.MinBy(player => player.Health);
+    }
+
+    public List<Player> GetPlayersNearEnemy()
+    {
+        return players.Where(player => Vector3.SqrMagnitude(enemyPosition - player.Position) <= 100).ToList();
+    }
+
+    public Player GetPlayerMaxDamageDealt()
+    {
+        return players.MaxBy(player => player.DamageDealt);
+    }
+
+    
 }

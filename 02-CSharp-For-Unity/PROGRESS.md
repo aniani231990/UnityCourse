@@ -32,10 +32,10 @@
 ---
 
 ## Module 03: LINQ
-- [ ] Теория пройдена
-- [ ] Задача 1 (Inventory filtering) ✅
-- [ ] Задача 2 (Enemy AI targeting)
-- [ ] Задача 3 (Custom LINQ extensions)
+- [x] Теория пройдена
+- [x] Задача 1 (Inventory filtering) ✅
+- [x] Задача 2 (Enemy AI targeting) ✅
+- [x] Задача 3 (Custom LINQ extensions) ✅
 - [ ] Проверка понимания ✅
 - [ ] Feynman technique ✅
 - [ ] Мини-проект (Quest System) ✅
